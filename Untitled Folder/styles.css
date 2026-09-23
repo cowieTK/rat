@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;     
+    justify-content: flex-start; 
+    min-height: 100vh;       
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+    text-align: center;      
+}
+
+header {
+    width: 100%;
+    margin-bottom: 0%;
+    padding: 0;
+}
+
+.container {
+    width: 100%;      
+    text-align: center;
+}
+
+.rottabox {
+    flex-direction: column;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: auto;      
+    background-color: rgba(0, 126, 10, 0.21); 
+    
+}
+
+.rottalist {
+    justify-content: left;
+    align-items:start;
+    width: auto;
+    margin-top: 0%;
+}
+
+.rottatext {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    width: 100%;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #3d7e00;
+}
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:x-large;
+    margin: 5%;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:large;
+    margin: 5%;
+}
