@@ -22,7 +22,7 @@ setInterval(() => {
     if (rotat % 1000 === 0) {
     
     rottatuhannet = Math.floor(rotat / 1000) + 333;
-    console.log(`Tuhat rottaa on syntynyt. Rottia on nyt ${rottatuhannet} miljardia.`);
+    console.log(`Tuhat miljoonaa rottaa on syntynyt. Rottia on nyt ${rottatuhannet} miljardia.`);
     }
     updateDisplay();
 }, 1);

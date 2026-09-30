@@ -81,3 +81,19 @@ h3 {
     font-size:large;
     margin: 5%;
 }
+
+.rottagallery {
+  display: flex;
+  flex-wrap: wrap;           
+  justify-content: center;    
+  gap: 16px;                  
+  padding: 20px;
+}
+
+.rottagallery img {
+  width: 250px;         
+  height: 250px; 
+    
+  object-fit: cover;          
+  border-radius: 8px;
+}
